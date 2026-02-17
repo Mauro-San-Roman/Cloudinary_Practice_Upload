@@ -1,0 +1,33 @@
+/* Estilos para el contenedor de la imagen */
+.preview-container {
+    min-height: 250px;
+    border: 2px dashed #dee2e6 !important;
+    position: relative;
+}
+
+#imagen[src=""] {
+    display: none;
+}
+#imagen:not([src=""]) {
+    display: block;
+    max-width: 100%;
+}
+
+/* Personalización del input de archivo */
+#fileInput {
+    cursor: pointer;
+}
+
+/* Estilos para el botón cuando está deshabilitado */
+#btnUpload:disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Efecto hover cuando está habilitado */
+#btnUpload:not(:disabled):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}

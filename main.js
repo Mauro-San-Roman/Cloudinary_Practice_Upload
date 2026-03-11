@@ -1,6 +1,6 @@
 
 const CLOUD_NAME = "dbkqbazp7";
-const PRESET = "present5C";
+const PRESET = "Pc Extreme Web";
 
 const imagen = document.getElementById('imagen');
 const inputF = document.getElementById('fileInput');
